@@ -1,3 +1,5 @@
+gem "minima"
+$ bundle
 # Abdulrahman Mahmoud's portfolio
 Data science projects
 
