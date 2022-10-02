@@ -1,5 +1,4 @@
 # Abdulrahman Mahmoud's portfolio
-Data science projects
 
 # [Project 1: Data Science Salary Estimator](https://github.com/phdamg/phdamg.github.io)
 * Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job.
