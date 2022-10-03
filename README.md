@@ -12,6 +12,9 @@ With a dataset of stored labelled faces
 4.	Find the person’s name from the encoding. 
 5.  Store the persons name and time in a database.
 
+![image](https://user-images.githubusercontent.com/114836975/193611560-5423d7f7-76c1-4622-896e-ffa99c526c53.png)
+
+
 
 
 # [Project 2: Data Science Salary Estimator](https://github.com/phdamg/phdamg.github.io)
