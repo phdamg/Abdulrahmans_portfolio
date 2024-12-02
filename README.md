@@ -17,7 +17,7 @@ With a dataset of stored labelled faces
 
 
 
-# [Project 2: Marketing Campaign Performance Monitoring for A Healthcare Company](https://github.com/phdamg/phdamg.github.io)
+# [Project 2: Marketing Campaign Performance Monitoring for A Healthcare Company]
 
 # Project Overview
 The healthcare company runs marketing campaigns across various digital channels such as google, meta and bing to promote healthcare services such as virtual consultations, prescription delivery, and wellness packages. This project focuses on building an automated solution to monitor and analyze the performance of these campaigns. By integrating ad spend data with internal revenue data, we provide actionable insights through a Tableau dashboard tailored for non-technical stakeholders.
