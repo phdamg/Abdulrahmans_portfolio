@@ -1,6 +1,3 @@
-# Dr Abdulrahman Mahmoud's portfolio
-
-
 # [Project 1: Data Warehousing for Aircall data](https://github.com/phdamg/Aircall)
 
 # Project Overview
