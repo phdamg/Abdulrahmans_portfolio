@@ -17,21 +17,71 @@ With a dataset of stored labelled faces
 
 
 
+# [Project 2: Marketing Campaign Performance Monitoring for A Healthcare Company](https://github.com/phdamg/phdamg.github.io)
 
+# Project Overview
+The healthcare company runs marketing campaigns across various digital channels such as google, meta and bing to promote healthcare services such as virtual consultations, prescription delivery, and wellness packages. This project focuses on building an automated solution to monitor and analyze the performance of these campaigns. By integrating ad spend data with internal revenue data, we provide actionable insights through a Tableau dashboard tailored for non-technical stakeholders.
 
-# [Project 2: Data Science Salary Estimator](https://github.com/phdamg/phdamg.github.io)
-* Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job.
-* Scraped over 1000 job descriptions from glassdoor using python and selenium
-* Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark. 
-* Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
-* Built a client facing API using flask 
+# Objectives
+- Automate Data Integration: Combine Google Analytics (GA4) ad spend data with company revenue and patient acquisition data.
+- Analyze Performance Metrics: Calculate KPIs such as:
+    - Cost Per Mille (CPM)
+    - Click-Through Rate (CTR)
+    - Cost Per Click (CPC)
+    - Conversion Rate
+    - Cost Per Order (CPO)
+    - Revenue Per Mille (RPM)
+    - Return on Ad Spend (ROAS)
+- Visualize Insights: Present the data in a Tableau dashboard with interactive features for non-technical users.
 
-![](/images/positions_by_state.png)
+# Project Workflow
+- Data Collection and Integration:
+  - Extract GA4 data using Analytics Canvas.
+  - Retrieve revenue and patient acquisition data from MariaDB.
+  - Standardize and merge datasets into a unified format.
+- Data Pipeline Design:
+  - Develop an ETL pipeline to automate data extraction, transformation, and loading.
+  - Create a stored procedure in MariaDB to process revenue data.
+- KPI Calculation:
+  - Implement field calculations in Tableau for metrics such as:
+    - CTR = (Clicks / Impressions) * 100
+    - ROAS = (Revenue / Ad Spend)
+- Dashboard Creation:
+  - Design a Tableau dashboard with:
+    - Summary metrics (total ad spend, revenue, ROAS, etc.).
+    - A segment highlighting the top 10 campaigns.
+    - Monthly trends visualized using line and bar charts.
+    - Filters for campaigns, dates, and regions.
+- Deployment:
 
+  - Validate metrics and publish the dashboard for real-time stakeholder access.
 
-# [Project 2: Ball Image Classifier](https://github.com/phdamg/phdamg.github.io) 
-For this example project I built a ball classifier to identify balls from different sports. This could be useful for someone who is new to sports from a certain country. They could take a picture of a ball and an app could serve them some information about the history and rules of the game. This is the underlying model for building something with those capabilities. 
+# Challenges and Solutions
+**Data Mapping**
+- Challenge: Aligning external campaign data with internal revenue records.
+- Solution: Establish a standardized naming convention and automate validation.
+**Data Quality**
+- Challenge: Inconsistent or incomplete data.
+- Solution: Implement data cleaning and validation steps in the ETL process.
+**Scalability**
+- Challenge: Handling growing datasets as campaigns expand.
+- Solution: Optimize data queries and use scalable extraction tools like Analytics Canvas.
 
-I was able to get the model to predict the sport of the ball with 94% accuracy after minimal tuning. For most of the cases this would meet the need of an end user of the app. To get these results I used transfer learning on a CNN trained on resnet34. This created time efficiencies and solid results.
+# Technologies Used
+- Data Integration:
+  - Google Analytics (GA4)
+  - Analytics Canvas
+  - MariaDB (stored procedures)
+- Analytics:
+  -Tableau (dashboard creation and KPI calculations)
+- Programming:
+  - SQL for data transformation
+  - Python (for additional automation)
 
-![](/images/matrix_results.png)
+# Outcome
+- Automated Workflow: Integrated ad spend and revenue data with minimal manual intervention.
+- Data-Driven Insights: Provided stakeholders with metrics to evaluate marketing effectiveness.
+- Scalable Solution: Designed a system capable of handling growing campaign data.
+
+![Ads yearly](https://github.com/user-attachments/assets/4fa03e85-bac9-4047-ac7c-46e89bceec12)
+
