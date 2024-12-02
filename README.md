@@ -84,7 +84,7 @@ The Patient Advisory Team (PAT) at the company advises patients on healthcare pr
 - 
 ![T1511_model](https://github.com/user-attachments/assets/3d3bfcc9-aebc-4497-9c99-0ea658908853)<br/><br/><br/><br/><br/><br/>
 
-# [Project 2: Marketing Campaign Performance Monitoring for A Healthcare Company]
+# [Project 2: Marketing Campaign Performance Monitoring for A Healthcare Company](https://github.com/phdamg/Ad-spend-dash)
 
 # Project Overview
 The healthcare company runs marketing campaigns across various digital channels such as google, meta and bing to promote healthcare services such as virtual consultations, prescription delivery, and wellness packages. This project focuses on building an automated solution to monitor and analyze the performance of these campaigns. By integrating ad spend data with internal revenue data, we provide actionable insights through a Tableau dashboard tailored for non-technical stakeholders.
