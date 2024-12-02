@@ -82,6 +82,7 @@ The healthcare company runs marketing campaigns across various digital channels 
 - Automated Workflow: Integrated ad spend and revenue data with minimal manual intervention.
 - Data-Driven Insights: Provided stakeholders with metrics to evaluate marketing effectiveness.
 - Scalable Solution: Designed a system capable of handling growing campaign data.
+![Ads yearly](https://github.com/user-attachments/assets/e5d6cf37-a734-447e-9e18-b6715a98f901)
 
-![Ads yearly](https://github.com/user-attachments/assets/4fa03e85-bac9-4047-ac7c-46e89bceec12)
+
 
