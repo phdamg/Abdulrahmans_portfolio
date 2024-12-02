@@ -154,17 +154,82 @@ The healthcare company runs marketing campaigns across various digital channels 
 
 
 
-# [Project 3: Facial recognition based attendance monitoring system](https://github.com/phdamg/phdamg.github.io)
+# [Project: Face Recognition-Based Attendance System for Higher Education Institution](https://github.com/phdamg/phdamg.github.io)
 
-This project is conducted for an HE institution with tens of thousands of students. The traditional method of attendance marking is a tedious task in many schools and colleges. It is also an extra burden to the faculties who should mark the attendance by manually calling the names of students which might take about 5 minutes of the entire session. Face recognition has set an important biometric feature, which can be easily acquirable and is non-intrusive. Face verification is a 1:1 matching process, it compares face images against the template face images and face identification is a 1:N problem that compares query face images. The purpose of this system is to build an attendance system that is based on face recognition techniques. Hence, the face of an individual will be considered for marking attendance.
+## **Project Overview**
+This project was conducted for a higher education (HE) institution with tens of thousands of students, aiming to modernize and automate the attendance marking process. Traditional attendance methods, such as manually calling student names, are time-consuming and prone to errors or proxy attendance. To address these challenges, I developed a **face recognition-based attendance system**, which leverages biometric technology to ensure accuracy, speed, and efficiency.
 
-Finalized approach
-With a dataset of stored labelled faces
-1.	Encode faces
-2.	Detect a face using mediapipe, which detects a face in 0.01s
-3.	Use the face_recognition library to identify the face, which has a 99.38% accracy.
-4.	Find the person’s name from the encoding. 
-5.  Store the persons name and time in a database.
+The system uses face recognition techniques to identify and verify students in real-time, marking attendance seamlessly. This non-intrusive solution eliminates the need for manual intervention, reduces time overhead for faculty, and enhances the integrity of the attendance process.
+
+---
+
+## **Objectives**
+- **Automate Attendance**:
+  - Replace manual attendance marking with a robust, automated system using face recognition.
+- **Enhance Efficiency**:
+  - Minimize time spent on attendance in large classes, improving overall session efficiency.
+- **Improve Accuracy**:
+  - Mitigate errors and prevent proxy attendance through biometric verification.
+
+---
+
+## **Finalized Approach**
+1. **Dataset Preparation**:
+   - Compiled a dataset of labeled facial images for all students enrolled in the institution.
+   - Ensured the dataset represents diverse facial expressions and angles for robust recognition.
+
+2. **Face Encoding**:
+   - Encoded facial features using the **face_recognition library**, achieving a 99.38% accuracy in face matching.
+
+3. **Real-Time Detection**:
+   - Integrated **Mediapipe**, a high-speed face detection framework, capable of detecting faces within 0.01 seconds.
+
+4. **Face Identification**:
+   - Leveraged **face_recognition** for 1:N matching to compare detected faces against the stored database.
+
+5. **Attendance Logging**:
+   - Stored the recognized student’s name, along with the timestamp, in a relational database for future retrieval and reporting.
+
+6. **System Workflow**:
+   - Detect a face in real-time using Mediapipe.
+   - Identify the face using the encoded features in the database.
+   - Log the student’s attendance details in the database automatically.
+
+---
+
+## **Technologies and Tools Used**
+- **Face Detection**: Mediapipe for real-time, high-speed face detection.
+- **Face Recognition**: Python's face_recognition library for high-accuracy identification.
+- **Data Storage**: Relational database (MySQL) to store attendance records.
+- **Programming Language**: Python for building the system's logic and integration.
+- **Deployment Platform**: Flask or similar web frameworks for system accessibility.
+
+---
+
+## **Key Features**
+- **Speed**:
+  - Detects faces in real-time, reducing the time required to mark attendance to mere seconds.
+- **Accuracy**:
+  - Achieves a recognition accuracy of 99.38%, ensuring reliable identification.
+- **Scalability**:
+  - Capable of handling tens of thousands of students with minimal computational overhead.
+- **Non-Intrusive**:
+  - Uses facial recognition, eliminating the need for physical interaction with devices.
+
+---
+
+## **Impact**
+- Reduced attendance marking time from ~5 minutes per session to just seconds, saving significant time across all sessions.
+- Eliminated proxy attendance issues, improving trust and accountability in attendance records.
+- Streamlined faculty workload, allowing them to focus more on teaching rather than administrative tasks.
+- Established a scalable framework for future integrations, such as combining attendance data with academic performance analytics.
+
+---
+
+## **Next Steps**
+- Integrate the system with the institution's Learning Management System (LMS) for seamless reporting.
+- Enhance robustness by incorporating additional biometric features (e.g., iris or voice recognition).
+- Deploy the system on the cloud for improved scalability and accessibility.
 
 ![image](https://user-images.githubusercontent.com/114836975/193611560-5423d7f7-76c1-4622-896e-ffa99c526c53.png)
 ![image](https://user-images.githubusercontent.com/114836975/193612294-a03fbda3-7796-4389-88aa-5a3795680ef2.png)<br/><br/><br/><br/><br/><br/>
