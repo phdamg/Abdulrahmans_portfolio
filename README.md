@@ -81,77 +81,10 @@ The Patient Advisory Team (PAT) at the company advises patients on healthcare pr
 - 
 ![T1511_model](https://github.com/user-attachments/assets/3d3bfcc9-aebc-4497-9c99-0ea658908853)<br/><br/><br/><br/><br/><br/>
 
-# [Project 2: Marketing Campaign Performance Monitoring for A Healthcare Company](https://github.com/phdamg/Ad-spend-dash)
-
-# Project Overview
-The healthcare company runs marketing campaigns across various digital channels such as google, meta and bing to promote healthcare services such as virtual consultations, prescription delivery, and wellness packages. This project focuses on building an automated solution to monitor and analyze the performance of these campaigns. By integrating ad spend data with internal revenue data, we provide actionable insights through a Tableau dashboard tailored for non-technical stakeholders.
-
-# Objectives
-- Automate Data Integration: Combine Google Analytics (GA4) ad spend data with company revenue and patient acquisition data.
-- Analyze Performance Metrics: Calculate KPIs such as:
-    - Cost Per Mille (CPM)
-    - Click-Through Rate (CTR)
-    - Cost Per Click (CPC)
-    - Conversion Rate
-    - Cost Per Order (CPO)
-    - Revenue Per Mille (RPM)
-    - Return on Ad Spend (ROAS)
-- Visualize Insights: Present the data in a Tableau dashboard with interactive features for non-technical users.
-
-# Project Workflow
-- Data Collection and Integration:
-  - Extract GA4 data using Analytics Canvas.
-  - Retrieve revenue and patient acquisition data from MariaDB.
-  - Standardize and merge datasets into a unified format.
-- Data Pipeline Design:
-  - Develop an ETL pipeline to automate data extraction, transformation, and loading.
-  - Create a stored procedure in MariaDB to process revenue data.
-- KPI Calculation:
-  - Implement field calculations in Tableau for metrics such as:
-    - CTR = (Clicks / Impressions) * 100
-    - ROAS = (Revenue / Ad Spend)
-- Dashboard Creation:
-  - Design a Tableau dashboard with:
-    - Summary metrics (total ad spend, revenue, ROAS, etc.).
-    - A segment highlighting the top 10 campaigns.
-    - Monthly trends visualized using line and bar charts.
-    - Filters for campaigns, dates, and regions.
-- Deployment:
-
-  - Validate metrics and publish the dashboard for real-time stakeholder access.
-
-# Challenges and Solutions
-**Data Mapping**
-- Challenge: Aligning external campaign data with internal revenue records.
-- Solution: Establish a standardized naming convention and automate validation.
-**Data Quality**
-- Challenge: Inconsistent or incomplete data.
-- Solution: Implement data cleaning and validation steps in the ETL process.
-**Scalability**
-- Challenge: Handling growing datasets as campaigns expand.
-- Solution: Optimize data queries and use scalable extraction tools like Analytics Canvas.
-
-# Technologies Used
-- Data Integration:
-  - Google Analytics (GA4)
-  - Analytics Canvas
-  - MariaDB (stored procedures)
-- Analytics:
-  -Tableau (dashboard creation and KPI calculations)
-- Programming:
-  - SQL for data transformation
-  - Python (for additional automation)
-
-# Outcome
-- Automated Workflow: Integrated ad spend and revenue data with minimal manual intervention.
-- Data-Driven Insights: Provided stakeholders with metrics to evaluate marketing effectiveness.
-- Scalable Solution: Designed a system capable of handling growing campaign data.
-
-![Ads_yearly](https://github.com/user-attachments/assets/a3d55f84-845e-4420-99a4-a249c441829a)
 
 
 
-# [Project: Face Recognition-Based Attendance System for Higher Education Institution](https://github.com/phdamg/phdamg.github.io)
+# [Project 2: Face Recognition-Based Attendance System for Higher Education Institution](https://github.com/phdamg/phdamg.github.io)
 
 ## **Project Overview**
 This project was conducted for a higher education (HE) institution with tens of thousands of students, aiming to modernize and automate the attendance marking process. Traditional attendance methods, such as manually calling student names, are time-consuming and prone to errors or proxy attendance. To address these challenges, I developed a **face recognition-based attendance system**, which leverages biometric technology to ensure accuracy, speed, and efficiency.
