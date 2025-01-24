@@ -79,7 +79,7 @@ The Patient Advisory Team (PAT) at the company advises patients on healthcare pr
 - **Actionable Insights**: Enabled management to track advisor performance, operational efficiency, and patient engagement.
 - **Scalable Solution**: Designed a schema capable of handling growing data volumes and new performance metrics.
 - 
-![T1511_model](https://github.com/user-attachments/assets/3d3bfcc9-aebc-4497-9c99-0ea658908853)<br/><br/><br/><br/><br/><br/>
+
 
 
 
